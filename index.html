@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Victor Jardim - Desenvolvedor Front End Web &amp; UI Designer">
+  <meta name="keywords" content="victor jardim, desenvolvedor web, web designer em fortaleza, web design, web designer, desenvolvedor front end em fortaleza, desenvolvedor front end, criar sites, desenvolvedor de site, victor jardim front end, front end web">
+  <meta name="description" content="Pequeno projeto que gera datas aleatórias ao clique do botão e que reseta para a data atual.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="https://www.victorjardim.dev/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="/css/style.min.css" as="style">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <title>Random Date | By Victor Jardim</title>
+</head>
+
+<body>
+  <div class="botoes-container">
+    <button onclick="dataAleatoria()">Data Aleatória</button>
+    <button onclick="resetarData()">Resetar Data</button>
+  </div>
+
+  <div class="data-atual-container">
+    <div class="data-atual">
+      <span class="data-label">Dia</span>
+      <p></p>
+    </div>
+    <div class="data-atual">
+      <span class="data-label">Mês</span>
+      <p></p>
+    </div>
+    <div class="data-atual">
+      <span class="data-label">Ano</span>
+      <p></p>
+    </div>
+    <div class="data-atual">
+      <p></p>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Created by: <a href="https://victorjardim.dev" target="_blank">Victor Jardim</p>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
